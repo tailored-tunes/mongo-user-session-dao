@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "tailored-tunes/mongo-connection-facade",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tailored-tunes/mongo-connection-facade.git",
-                "reference": "bcba5abf363a3170a6bda1d48b3ffcf67ed1b533"
+                "reference": "45263ddfdf90c270e23d3c8584a58efe8376ea54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tailored-tunes/mongo-connection-facade/zipball/bcba5abf363a3170a6bda1d48b3ffcf67ed1b533",
-                "reference": "bcba5abf363a3170a6bda1d48b3ffcf67ed1b533",
+                "url": "https://api.github.com/repos/tailored-tunes/mongo-connection-facade/zipball/45263ddfdf90c270e23d3c8584a58efe8376ea54",
+                "reference": "45263ddfdf90c270e23d3c8584a58efe8376ea54",
                 "shasum": ""
             },
             "require-dev": {
@@ -46,7 +46,7 @@
                 "facade",
                 "mongodb"
             ],
-            "time": "2014-12-16 22:33:22"
+            "time": "2014-12-16 22:43:34"
         },
         {
             "name": "tailored-tunes/user-session-storage",
