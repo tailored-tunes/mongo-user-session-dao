@@ -1,8 +1,7 @@
 <?php
 
-namespace TailoredTunes\Dao;
-
-use TailoredTunes\MongoDbConnection;
+namespace TailoredTunes\MongoUserSessionDao;
+use TailoredTunes\MongoConnectionAdapter\MongoDbConnection;
 use TailoredTunes\UserSession\Dao\SessionDao;
 
 class MongoSessionDao implements SessionDao

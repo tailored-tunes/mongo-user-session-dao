@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "tailored-tunes/mongo-connection-facade",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tailored-tunes/mongo-connection-facade.git",
-                "reference": "ce9f6f9e22a032eb2040a76f1b3e58d5ef01b64f"
+                "reference": "bcba5abf363a3170a6bda1d48b3ffcf67ed1b533"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tailored-tunes/mongo-connection-facade/zipball/ce9f6f9e22a032eb2040a76f1b3e58d5ef01b64f",
-                "reference": "ce9f6f9e22a032eb2040a76f1b3e58d5ef01b64f",
+                "url": "https://api.github.com/repos/tailored-tunes/mongo-connection-facade/zipball/bcba5abf363a3170a6bda1d48b3ffcf67ed1b533",
+                "reference": "bcba5abf363a3170a6bda1d48b3ffcf67ed1b533",
                 "shasum": ""
             },
             "require-dev": {
@@ -46,20 +46,20 @@
                 "facade",
                 "mongodb"
             ],
-            "time": "2014-12-16 22:19:20"
+            "time": "2014-12-16 22:33:22"
         },
         {
             "name": "tailored-tunes/user-session-storage",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tailored-tunes/user-session-storage.git",
-                "reference": "6c68f2b23b91c21eba2b150c8bb353867b6681d6"
+                "reference": "63987bdbad500b4e59021d10602fcc6e10f174a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tailored-tunes/user-session-storage/zipball/6c68f2b23b91c21eba2b150c8bb353867b6681d6",
-                "reference": "6c68f2b23b91c21eba2b150c8bb353867b6681d6",
+                "url": "https://api.github.com/repos/tailored-tunes/user-session-storage/zipball/63987bdbad500b4e59021d10602fcc6e10f174a5",
+                "reference": "63987bdbad500b4e59021d10602fcc6e10f174a5",
                 "shasum": ""
             },
             "require-dev": {
@@ -73,7 +73,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPLV2"
+                "MIT"
             ],
             "authors": [
                 {
@@ -89,7 +89,7 @@
                 "storage",
                 "user"
             ],
-            "time": "2014-12-16 22:07:55"
+            "time": "2014-12-16 22:28:26"
         }
     ],
     "packages-dev": [
