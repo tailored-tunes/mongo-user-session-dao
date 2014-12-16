@@ -4,8 +4,94 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e9d77ccacffc1579674f7f8f5b67d683",
-    "packages": [],
+    "hash": "5a7d61f659da6b82eec789094502eade",
+    "packages": [
+        {
+            "name": "tailored-tunes/mongo-connection-facade",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tailored-tunes/mongo-connection-facade.git",
+                "reference": "ce9f6f9e22a032eb2040a76f1b3e58d5ef01b64f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tailored-tunes/mongo-connection-facade/zipball/ce9f6f9e22a032eb2040a76f1b3e58d5ef01b64f",
+                "reference": "ce9f6f9e22a032eb2040a76f1b3e58d5ef01b64f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TailoredTunes\\": "src/TailoredTunes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Meza",
+                    "email": "meza@tailored-tunes.com",
+                    "homepage": "http://tailored-tunes.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A mongodb connection facade",
+            "keywords": [
+                "facade",
+                "mongodb"
+            ],
+            "time": "2014-12-16 22:19:20"
+        },
+        {
+            "name": "tailored-tunes/user-session-storage",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tailored-tunes/user-session-storage.git",
+                "reference": "6c68f2b23b91c21eba2b150c8bb353867b6681d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tailored-tunes/user-session-storage/zipball/6c68f2b23b91c21eba2b150c8bb353867b6681d6",
+                "reference": "6c68f2b23b91c21eba2b150c8bb353867b6681d6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TailoredTunes\\": "src/TailoredTunes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLV2"
+            ],
+            "authors": [
+                {
+                    "name": "Meza",
+                    "email": "meza@tailored-tunes.com",
+                    "homepage": "http://tailored-tunes.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A user session storage adapter",
+            "keywords": [
+                "session",
+                "storage",
+                "user"
+            ],
+            "time": "2014-12-16 22:07:55"
+        }
+    ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
@@ -81,91 +167,6 @@
                 "standards"
             ],
             "time": "2014-12-04 22:32:15"
-        },
-        {
-            "name": "tailored-tunes/mongo-connection-facade",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tailored-tunes/mongo-connection-facade.git",
-                "reference": "c6f13cfb5038af87a9a509a3ed1ecb270444fa03"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tailored-tunes/mongo-connection-facade/zipball/c6f13cfb5038af87a9a509a3ed1ecb270444fa03",
-                "reference": "c6f13cfb5038af87a9a509a3ed1ecb270444fa03",
-                "shasum": ""
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "TailoredTunes\\": "src/TailoredTunes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPLV2"
-            ],
-            "authors": [
-                {
-                    "name": "Meza",
-                    "email": "meza@tailored-tunes.com",
-                    "homepage": "http://tailored-tunes.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A mongodb connection facade",
-            "keywords": [
-                "facade",
-                "mongodb"
-            ],
-            "time": "2014-12-16 21:57:34"
-        },
-        {
-            "name": "tailored-tunes/user-session-storage",
-            "version": "0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tailored-tunes/user-session-storage.git",
-                "reference": "6c68f2b23b91c21eba2b150c8bb353867b6681d6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tailored-tunes/user-session-storage/zipball/6c68f2b23b91c21eba2b150c8bb353867b6681d6",
-                "reference": "6c68f2b23b91c21eba2b150c8bb353867b6681d6",
-                "shasum": ""
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "TailoredTunes\\": "src/TailoredTunes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPLV2"
-            ],
-            "authors": [
-                {
-                    "name": "Meza",
-                    "email": "meza@tailored-tunes.com",
-                    "homepage": "http://tailored-tunes.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A user session storage adapter",
-            "keywords": [
-                "session",
-                "storage",
-                "user"
-            ],
-            "time": "2014-12-16 22:07:55"
         }
     ],
     "aliases": [],
