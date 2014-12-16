@@ -1,0 +1,31 @@
+{
+  "name": "tailored-tunes/mongo-user-session-dao",
+  "description": "A Mongodb implementation of the user session storage",
+  "type": "library",
+  "keywords": [
+    "user",
+    "session",
+    "storage"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Meza",
+      "email": "meza@tailored-tunes.com",
+      "homepage": "http://tailored-tunes.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "TailoredTunes\\": "src/TailoredTunes/"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "1.*",
+    "tailored-tunes/user-session-storage": "0.*",
+    "tailored-tunes/mongo-connection-facade": "1.*"
+  }
+}
