@@ -27,7 +27,7 @@
     "squizlabs/php_codesniffer": "1.*"
   },
   "require": {
-    "tailored-tunes/user-session-storage": "0.*",
+    "tailored-tunes/user-session-storage": "0.0.*",
     "tailored-tunes/mongo-connection-facade": "1.*"
   }
 }
